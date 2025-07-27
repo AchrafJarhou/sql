@@ -1,76 +1,4 @@
-
-insert into 
-  auteurs (
-    
-    name, 
-    email
-   
-  )
-values
-  (
-    
-    'George Sand', 
-    'gsand@example.com'
-    
-  ),
-    (
-    
-    'Victor Hugo', 
-    'vhugo@example.com'
-    
-  ),
-    (
-    
-    'Alexandre Dumas', 
-    'adumas@example.com'
-    
-  ),
-    (
-    
-    'Gustave Flaubert', 
-    'gflaubert@example.com'
-    
-  ),
-    (
-    
-    'Marcel Pagnol', 
-    'mpagnol@example.com'
-    
-  );
-  
-  insert into 
-    auteurs (
-      id, 
-      name, 
-      email, 
-      create_time
-    )
-  values
-    (
-      $id, 
-      $name, 
-      $email, 
-      $create_time
-    );
-    
-    SELECT * FROM auteurs;
-    
-    insert into 
-      categorie (
-        
-        nom
-      )
-    values
-      (
-        
-       'Roman historique'),
-      ( 'Poésie'),
-       ('Théâtre'),
-       ('Roman réaliste'),
-      ('Littérature jeunesse') 
-      ;
-      
-      insert into 
+   insert into 
         livres (
           
           titre, 
@@ -149,6 +77,3 @@ values
           3, 
           1929  
         );
-
-
-        
